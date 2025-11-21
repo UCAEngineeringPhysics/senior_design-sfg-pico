@@ -5,7 +5,7 @@ from machine import freq, Pin
 from diff_drive_controller import DiffDriveController
 
 # SETUP
-freq(200_000_000)  # orignal frequency: 150MHz
+freq(240_000_000)  # orignal frequency: 150MHz
 # Modules config
 ddc = DiffDriveController(
     left_ids=((3, 2, 4), (21, 20)),
